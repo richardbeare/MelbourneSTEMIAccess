@@ -1,0 +1,20 @@
+---
+title: "Current PCI network"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leaflet)
+load("allmaps.Rda")
+```
+
+
+## Current PCI network
+
+
+```{r, echo=FALSE, fig.width = 7, fig.height = 7}
+map.all
+```
+
+
+
